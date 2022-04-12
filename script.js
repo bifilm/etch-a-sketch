@@ -13,7 +13,7 @@ button.addEventListener('click', ()=>{
 
     newBoxAmount=parseInt(prompt('Enter how many rows you want (max 200 rows)'));
     if (newBoxAmount>200){
-        newBoxamount=200;
+        newBoxAmount=200;
     }
     boxGrid(newBoxAmount);
 })
